@@ -154,19 +154,19 @@
   DVDCSS_SUPPORT="yes"
 
 # build and install with LAME cdrip encoder support
-  ENCODER_LAME="yes"
+  ENCODER_LAME="no"
 
 # build and install with VORBIS cdrip encoder support
-  ENCODER_VORBIS="yes"
+  ENCODER_VORBIS="no"
 
 # build and install with BluRay support (yes / no)
-  BLURAY_SUPPORT="yes"
+  BLURAY_SUPPORT="no"
 
 # additional drivers to install:
 # for a list of additinoal drivers see packages/linux-drivers
 # Space separated list is supported,
 # e.g. ADDITIONAL_DRIVERS="DRIVER1 DRIVER2"
-  ADDITIONAL_DRIVERS="RTL8192CU dvbhdhomerun"
+  ADDITIONAL_DRIVERS=""
 
 # build with network support (yes / no)
   NETWORK="yes"
@@ -193,10 +193,10 @@
   OPTICAL_DRIVE_SUPPORT="yes"
 
 # build with AirPlay support (stream videos from iDevices to XBMC) (yes / no)
-  AIRPLAY_SUPPORT="yes"
+  AIRPLAY_SUPPORT="no"
 
 # build with AirTunes support (stream music from iDevices to XBMC) (yes / no)
-  AIRTUNES_SUPPORT="yes"
+  AIRTUNES_SUPPORT="no"
 
 # build with libnfs support (mounting nfs shares with XBMC) (yes / no)
   NFS_SUPPORT="yes"
@@ -205,10 +205,10 @@
   AFP_SUPPORT="yes"
 
 # build and install Samba Client support (yes / no)
-  SAMBA_CLIENT="yes"
+  SAMBA_CLIENT="no"
 
 # build and install Samba Server (yes / no)
-  SAMBA_SERVER="yes"
+  SAMBA_SERVER="no"
 
 # build and install SFTP Server (yes / no)
   SFTP_SERVER="yes"
@@ -217,10 +217,10 @@
   SSHGUARD_SUPPORT="no"
 
 # build and install PPP support (yes / no)
-  PPTP_SUPPORT="yes"
+  PPTP_SUPPORT="no"
 
 # build and install OpenVPN support (yes / no)
-  OPENVPN_SUPPORT="yes"
+  OPENVPN_SUPPORT="no"
 
 # build and install diskmounter service (udisks)
 # this service provide auto mounting support for external drives
@@ -237,7 +237,7 @@
   NTFS3G="yes"
 
 # build and install hfs filesystem utilities (yes / no)
-  HFSTOOLS="yes"
+  HFSTOOLS="no"
 
 # OpenGL(X) implementation to use (no / Mesa)
   OPENGL="no"
@@ -282,13 +282,13 @@
   IRSERVER_SUPPORT="no"
 
 # build and install Joystick support (yes / no)
-  JOYSTICK_SUPPORT="yes"
+  JOYSTICK_SUPPORT="no"
 
 # build and install CEC adapter support (yes / no)
   CEC_SUPPORT="yes"
 
 # build and install iSCSI support - iscsistart (yes / no)
-  ISCSI_SUPPORT="yes"
+  ISCSI_SUPPORT="no"
 
 # LCD driver to Use - Possible drivers are ( Comma seperated:
 # bayrad,CFontz,CFontz633,CFontzPacket,curses,CwLnx,dm140,
